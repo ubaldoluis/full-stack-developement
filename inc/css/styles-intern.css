@@ -1,0 +1,58 @@
+/* CSS Document */
+.landing-header { margin-top: 20px; ^padding-left: 18px; width: 280px; height: 28px; }
+h2 {line-height: 120%;}
+p { margin: -17px 0px 0px 85px; float: left; }
+#subHeader{ margin-left:20px; color:#FFFFFF; font-weight:bold; font-weight:bolder; font: 11px Tahoma, Verdana, Arial, Helvetica, sans-serif; text-align:left; }
+#subHeaderAccent{ color:#FFFF00; }
+	body { text-align: center; background-color: #393939;}
+	#landingWrapper { width: 1005px; margin: 20px auto; }
+	#leftColumn { width: 1005px; height: 627px; float: left; position: relative; margin-right: 14px; background-image:url('../img/01-top-left-info-large.gif'); }
+	#footerWrapper { width: 1005px; margin-top: 10px; float: left; }
+	#footerWrapper a {color: #FFFFFF;}
+#logoLink { width: 300px; height: 84px; float: left; position: absolute; top: 44px; left: 48px; cursor: pointer; }
+
+#logo { background-image: url(../img/master_prevencion_logo_imf_ceu.jpg);background-repeat: no-repeat; text-indent: -9999px; width: 300px; height: 84px; overflow: hidden; margin: 30px 50px auto; }
+#topblock {font: 12px/15px Arial, Helvetica, sans-serif;color: #989898;position: absolute;top: -10px;left: 55px;text-align:left; width: 940px; float: left;}
+#textBlock1-intern {font: 14px/18px Arial, Helvetica, sans-serif;color: white;position: absolute;top: 120px;left: 148px;text-align:left; width: 690px; float: left;}
+
+#textBlock2 { float: left; position: absolute; top: 463px; left: 48px; width: 250px;font: 9px/15px Verdana, Arial, Helvetica, sans-serif; color: #f8fbff;text-align:left;}
+#textBlock3 {float: left; position: relative; top: 463px; left: 363px; width: 250px; font: 9px/15px Verdana, Arial, Helvetica, sans-serif; color: #f8fbff; text-align:left;}
+#textBlock1-intern ul {list-style:none; font: 12px/15px Arial, Helvetica, sans-serif; margin: 0px 0px 20px 20px;padding: 0px;}
+#textBlock2 ul, #textBlock3 ul, #textBlock4 ul {list-style:disc; font: 12px/15px Arial, Helvetica, sans-serif; margin: 0px 0px 0px 16px;padding: 0px;}
+#textBlock2 li, #textBlock3 li, #textBlock4 li {margin-top: 3px; margin-bottom: 3px;}
+p {margin:0px 0px 15px 0px; float: left; }
+
+#textBlock4 {font: 12px/15px Arial, Helvetica, sans-serif;color: white;position: relative;top: 463px;left: 427px;text-align:left; width: 300px; float: left;}
+	/* button Styling */
+#button input {width:100px; height:32px; float:right; margin:0px; padding:0; margin-left:40px;}
+#button input.button { font: 16px Arial; color:#fff; background:#4b9e08; border: solid 2px #fff; font-weight:bold;; margin-top:-10px; margin-left:50px; padding: 0px;  }
+#button input.button:hover { cursor:pointer; border: none; }
+	/* Resaltado del campo */		
+#status{width:50%; padding:10px; outline:none; height:36px; }
+.focusField{background:white; color:#000; }
+.idleField{background: #CCC; color: #6F6F6F;}
+select{background: #CCC;}
+#textBlock1 span, #textBlock2 span, #textBlock3 span, #textBlock4 span{color:#FF3; font-weight:bold;}
+</style>
+
+<!--[if IE]>
+	<style>
+		.landing-header {
+			float: left;
+			text-align: left;
+			margin-bottom: 5px;
+		}
+		#landing-header {
+			margin: 0px 0px 20px 0px;
+			padding: 0px;
+		}
+		form { margin:0px; padding:0px;}
+		
+		
+		#FormWrapper {
+			position: relative;
+			top: -10px;
+			left: -2px;
+		}
+	</style>
+<![endif]-->

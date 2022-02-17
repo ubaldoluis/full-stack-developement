@@ -1,0 +1,145 @@
+/* CSS Document */
+/* General HTML Statements */
+body { text-align: center; background-color: #393939;}
+#landingWrapper { width: 1005px; margin: 20px auto; }
+#leftColumn { width: 595px; height: 627px; float: left; position: relative; margin-right: 14px; background-image:url('../img/v2/01-top-left-info-pane.jpg'); }
+#left { width: 595px; height: 627px; float: left; position: relative; margin-right: 14px; background-image:url('../img/v2/01-top-left-info-pane.jpg'); }
+#rightColumn { width: 369px; float: left; }
+#topRightWrapper { width: 369px; height: 283px; float: left; margin-bottom: 9px; background-image:url('../img/v2/02-top-right-pros.gif'); }
+#bottomRightWrapper { position:relative;width: 369px; height:322px; float: left; background:url('../img/v2/07-bottom-right-form.jpg') no-repeat; }
+.landing-header { margin-top: 20px; ^padding-left: 18px; width: 280px; height: 28px; }
+h1{line-height: 120%;}
+.landing-header h2 { color: #FF0; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 5px 0; padding: 0; margin-top: 10px; }
+#subHeader{ margin-left:20px; color:#FFFFFF; font-weight:bold; font-weight:bolder; font: 11px Tahoma, Verdana, Arial, Helvetica, sans-serif; text-align:left;}
+#subHeaderAccent{ color:#FFFF00;}
+/* First text blocks */ 
+#logo { background-image: url(../img/master-energias-renovables-ceu-imf.png);background-repeat: no-repeat; text-indent: -9999px; width: 300px; height: 84px; overflow: hidden; margin: 0px 20px auto; float: left; position: absolute; top: 44px; left: 30px; cursor: pointer; }
+#topblock {font: 12px/15px Arial, Helvetica, sans-serif;color: #989898;position: absolute;top: -10px;left: 55px;text-align:left; width: 940px; float: left;}
+#topblock a, #topblock a:hover, #topblock a:visited{ color: #989898; text-decoration:none; cursor:default;}
+#textBlock1 {font: 12px/15px Arial, Helvetica, sans-serif;color: black;position: absolute;top: 120px;left: 48px;text-align:left; width: 275px; float: left;}
+#textBlock1-intern {font: 13px/15px Arial, Helvetica, sans-serif;color: white;position: absolute;top: 120px;left: 48px; text-align:left; width: 520px; float: left;}
+#textBlock2 { float: left; position: absolute; top: 463px; left: 48px; width: 250px;font: 9px/15px Verdana, Arial, Helvetica, sans-serif; color: #f8fbff;text-align:left;}
+#textBlock3 {float: left; position: relative; top: 463px; left: 323px; width: 250px; font: 9px/15px Verdana, Arial, Helvetica, sans-serif; color: #f8fbff; text-align:left;}
+#textBlock2 ul, #textBlock3 ul {list-style:disc; font: 12px/15px Arial, Helvetica, sans-serif; margin: 0px 0px 0px 16px;padding: 0px;}
+#textBlock2 li, #textBlock3 li {margin-top: 3px; margin-bottom: 3px;}
+p {margin:0px 0px 15px 0px; float: left; line-height: 18px; }
+#textBlock4 {font: 12px/15px Arial, Helvetica, sans-serif;color: white;position: relative;top: 30px;left: 18px;text-align:left; width: 300px; float: left;}
+#textBlock4 ul{list-style: none;}
+/* Form Statements */
+form { margin-left: 0px; font-family: Arial, Helvetica, sans-serif; width: 325px; text-align: left; color: #FFFFFF; font-size: 11px; ^margin-top: -10px; }
+input { height: 17px; background-color: #cccccc; border: none; }
+select { height: 17px; border: none; background-color: #cccccc; font-size: 10px; }
+.formfield { float: left; margin: 5px 6px 5px 0px; }
+.formfield-right { float: right; margin: 5px 0px 5px 0px; }
+.formfield label { display: block; margin: 0px; }
+.formfield input { width: 100%; }
+.formfield-right input{ width: 100%; }
+.formfield-right-button { float: right; margin: -10px -145px 0px 0px; width:110px; }
+.row { overflow: hidden; clear: both; width: 100%; padding: 0px; margin: 0px; }
+input { background-color: #ffffff; }
+select { background-color: #ffffff; }
+#formWrapper { margin-left:18px; ^margin-left: 5px;	}
+#FormWrapper {position: relative;top: 0px;}
+#requiredFieldNote { margin: -19px 0 0 85px; }
+#mailing-address { width: 100%; }
+#first-name, #country select, #temail, #last-name { width: 159px; *width: 149px; }
+#intphone, #intphone select, #education { width: 186px; }
+#AdProgramIDButton{ margin:0; padding:0; position:relative; top:-32px; ^top:-20px; }
+#AdProgramButtonTextAdjust { position:relative; top:-4px; ^top:0; }
+.buttonRow{ position: relative; left:120px; top:-12px; ^left:115px; ^top:-6px; }
+input.radiobutton { width:15px; background-color:#2DA19E; }
+#moveLineUpForIE{ ^position:relative; ^top:-20px; }
+#moveRequiredUpForIE{ ^position:relative; ^top:-5; }
+h2#constrainHeightForIE{ ^height:10px; ^margin:0; ^padding:0; ^position:relative; ^left:-83px; }
+.moveSectionLeftForIE{ ^position:relative; ^left:-23px; }
+#textBoxFields {position:relative; top:-60px; ^top:-35px; }
+#city { width: 130px; }
+#zip { width: 46px; *width: 36px; }
+#state select { width: 137px; }
+#gender,#gender select,#gradyear,#gradyear select { width: 82px; *width: 79px; }
+#number input { width: 128px; *width: 113px; }
+#age input { width: 21px; *width: 8px; }
+#legal input {margin:0; padding:0;float:left; width:15px; margin-right:10px;margin-top:5px;}
+#leyenda label {margin: -35px 0px 0 10px;}
+.hidden { text-indent: -9999px; }
+.phoneformat { font-size: 9px; }
+/* button Styling */
+#button input {width:100px; height:32px; float:right; margin:0px; padding:0; margin-left:40px;}
+#button input.button { font: 16px Arial; color:#fff; background:#4b9e08; border: solid 2px #fff; font-weight:bold;; margin-top:-10px; margin-left:50px; padding: 0px;  }
+#button input.button:hover { cursor:pointer; border: none; }
+/* Resaltado del campo */
+#status{width:50%; padding:10px; outline:none; height:36px; }
+.focusField{background:white; color:#000; }
+.idleField{background: #CCC; color: #6F6F6F;}
+select{background: #CCC;}
+#textBlock1 span, #textBlock2 span, #textBlock3 span, #textBlock4 span{color:#FF3; font-weight:bold;}
+/* Post Captacion Statements */
+/*
+	Variable Grid System (Fluid Version).
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/ & 960 Fluid - http://www.designinfluences.com/
+	Licensed under GPL and MIT.
+*/
+/* Containers */
+.container_4 {margin-left: auto; margin-right: auto; width: 960px;}
+/* Grid >> Global */
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5 {display:inline; float: left; position: relative; margin-left: 10px; margin-right: 10px;}
+/* Grid >> Children (Alpha ~ First, Omega ~ Last) */
+.alpha {margin-left: 0;}
+.omega {margin-right: 0;}
+/* Grid >> 5 Columns */
+.container_4 .grid_1 {width:172px;}
+.container_4 .grid_2 {width:364px;}
+.container_4 .grid_3 {width:556px;}
+.container_4 .grid_4 {width:748px;}
+.container_4 .grid_5 {width:940px;}
+/* Prefix Extra Space >> 5 Columns */
+.container_4 .prefix_1 {padding-left:192px;}
+.container_4 .prefix_2 {padding-left:384px;}
+.container_4 .prefix_3 {padding-left:576px;}
+.container_4 .prefix_4 {padding-left:768px;}
+/* Suffix Extra Space >> 5 Columns */
+.container_4 .suffix_1 {padding-right:192px;}
+.container_4 .suffix_2 {padding-right:384px;}
+.container_4 .suffix_3 {padding-right:576px;}
+.container_4 .suffix_4 {padding-right:768px;}
+/* Push Space >> 5 Columns */
+.container_4 .push_1 {left:192px;}
+.container_4 .push_2 {left:384px;}
+.container_4 .push_3 {left:576px;}
+.container_4 .push_4 {left:768px;}
+/* Pull Space >> 5 Columns */
+.container_4 .pull_1 {right:192px;}
+.container_4 .pull_2 {right:384px;}
+.container_4 .pull_3 {right:576px;}
+.container_4 .pull_4 {right:768px;}
+/* Clear Floated Elements */
+.clear {clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+.clearfix:after {clear: both; content: ' '; display: block; font-size: 0; line-height: 0; visibility: hidden; width: 0; height: 0;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* Post Captacion Text Statements */
+#postcaptacion {background:#fff; border-top: blue solid 5px;  font: 12px/15px Arial, Helvetica, sans-serif; color: #000;}
+.container_4, .grid_4 {background-color:#fff;}
+.container_4 div p { background-color:#fff; border:1px solid #333; padding:0px; line-height:24px; margin-top:0px; text-align:left; }
+.container_4 h2 { color:#000; }
+
+
+/* Footer Statements */
+#footerWrapper { width: 960px; margin: 10px 10px 0 20px; float: left; background-color:#abcadf; }
+#footerWrapper a {color: #FFFFFF;}
+#privacyStatement { margin: 0 auto; color: #FFFFFF; text-align: center; font: 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+#moreInfoStatement { text-align: center; color: #FFFFFF; font: 11px/14px Tahoma, Verdana, Arial, Helvetica, sans-serif; margin-bottom: 5px; }
+#copyrightStatement { text-align: center; color: #b2b2b2; font: 9px/16px Tahoma, Verdana, Arial, Helvetica, sans-serif; margin-bottom: 5px; line-height: 12px; }
+
+<!--[if IE]>
+	<style>
+.landing-header {float: left; text-align: left; margin-bottom: 5px;}
+#landing-header {margin: 0px 0px 20px 0px; padding: 0px;}
+form { margin:0px; padding:0px;}
+
+
+#FormWrapper {position: relative; top: -10px; left: -2px;}
+	</style>
+<![endif]-->

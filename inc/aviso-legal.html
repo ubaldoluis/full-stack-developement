@@ -1,0 +1,58 @@
+<? $domain = str_replace("www.","", $_SERVER['HTTP_HOST']); ?>
+<!DOCTYPEhtmlPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Aviso Legal</title>
+
+<style type="text/css">
+<!--
+p {
+	font-family: Geneva, Arial, Helvetica, sa ns-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000000;
+	margin: 5px;
+}
+
+-->
+</style>
+<script language="javascript">
+
+function checkLegal(dat){
+	check = eval("document.mylegal."+dat);
+	if (check.checked) {
+		eval('opener.document.cupon.'+dat+'.value = "1"');
+	} else {
+		eval('opener.document.cupon.'+dat+'.value = "0"');
+	}
+}
+
+
+
+function aceptar(){
+	opener.document.cupon.avisoLegal.checked = true;
+	window.close();
+}
+
+lssi = opener.document.cupon.lssi.value;
+if (lssi == "1"){textolssi = "checked";} else {textolssi = "";}
+lopd = opener.document.cupon.lopd.value;
+if (lopd == "1"){textolopd = "checked";} else {textolopd = "";}
+
+
+</script>
+</head>
+<body style="overflow-x:hidden; overflow-y:scroll;">
+<form name="mylegal">
+<div id=contenidolegal> 
+<p align="justify">Los datos personales que usted nos facilita serán incluidos en un fichero automatizado de <strong>cursodecarretillero.es</strong> propiedad de Insomnio Urbanita, S.L. con domicilio social en Barcelona, C/ Medes, nº 4 y N.I.F. B-98054034</p>
+<p align="justify">Usted podrá ejercer los derechos de acceso, cancelación, rectificación, oposición y revocación del consentimiento prestado, remitiendo un correo electrónico a robinson@cursodecarretillero.es. (Ley Orgánica 15/1999 de 13 de Diciembre) o hágalo constar en este formulario marcando la siguiente casilla.
+  <script>document.write('<input type=checkbox name=lopd value=1 '+textolssi+' onclick="checkLegal(\'lopd\');">')</script></p>
+<p align="justify">Mediante el envío del presente formulario nos autoriza <strong>expresamente</strong> a remitirte información comercial o publicitaria relativa a nuestros servicios así como remitirte información comercial o publicitaria relacionada con la formación; igualmente, y con la finalidad de hacerle llegar ofertas relacionadas con sus servicios, autoriza expresamente a que sus datos sean cedidos a empresas de formación que le informen sobre sus servicios, relacionados con la información que solicita. También acepta que <?=$domain ?> le informe via email o mediante envios sms u otros medios información sobre otro tipo de información publicitaria propia o de otras empresas. Con el fin de evitar la recepción de correspondencia no deseada tal y como establece la Ley de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI), si no desea recibir información comercial a través de medios electrónicos hágalo constar marcando la siguiente casilla.
+<script>document.write('<input type=checkbox name=lssi value=1 '+textolssi+' onclick="checkLegal(\'lssi\');">')</script></p> 
+<p align="center"><a href="javascript:aceptar();">Aceptar</a></p>
+</div>
+</form>
+</body>
+</html> 
